@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
+    system("clear");
     int placa;
     printf("Digite o número final da placa do veículo\n");
     scanf("%d",&placa);
