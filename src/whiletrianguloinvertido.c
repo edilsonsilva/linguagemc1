@@ -3,16 +3,16 @@
 
 int main(){
     system("clear");
-    int linha = 1;
+    int linha = 20;
     int coluna = 1;
-    while(linha <= 10){
-        while(coluna <= 20){
-            printf("#");
+    while(linha >= 1){
+        while(coluna <= linha){
+            printf("@  ");
             coluna++;
         }
-        coluna=1;
+        coluna = 1;//resetar a variável coluna
         printf("\n");
-        linha++;
+        linha--;
     }
     return 0;
 }
