@@ -1,16 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main()
+{
     system("clear");
     int linha = 20;
     int coluna = 1;
-    while(linha >= 1){
-        while(coluna <= linha){
+    while (linha >= 1)
+    {
+        while (coluna <= linha)
+        {
             printf("@  ");
             coluna++;
         }
-        coluna = 1;//resetar a variável coluna
+        coluna = 1; // resetar a variável coluna
         printf("\n");
         linha--;
     }
